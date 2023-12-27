@@ -6,7 +6,7 @@ import java.io.IOException;
 public class practica1 {
 
     public static void main(String[] args) {
-        String nombreArchivo = "ruta_del_archivo.txt"; // Reemplaza con la ruta de tu archivo
+        String nombreArchivo = "cp-national-datafile-csv.csv"; // Reemplaza con la ruta de tu archivo
 
         try (BufferedReader br = new BufferedReader(new FileReader(nombreArchivo))) {
             String linea;
